@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 20, 2021 lúc 09:48 AM
+-- Thời gian đã tạo: Th10 20, 2021 lúc 10:50 AM
 -- Phiên bản máy phục vụ: 10.4.19-MariaDB
 -- Phiên bản PHP: 7.4.20
 
@@ -87,9 +87,10 @@ CREATE TABLE `posts_table` (
 --
 
 INSERT INTO `posts_table` (`id`, `id_user`, `id_tag`, `id_category`, `title`, `description`, `image`, `status`, `author`, `tags`, `created_at`, `updated_at`) VALUES
-(9, NULL, NULL, NULL, 'International Metrics Associate', 'Tui chìm đánh ba trời khoảng tím.', 'anh8.jpg', 2, 'Máy thôi tím năm đỏ may biển núi bảy.', 'dasdsa', '2021-10-19', '2021-10-19'),
-(24, NULL, NULL, NULL, 'Regional Paradigm Designer', 'Lầu ác leo anh giết.', 'anh9.jpg', 2, 'Leo tô bảy.', 'ddddddd', '2021-10-20', '2021-10-20'),
-(31, NULL, NULL, NULL, 'Forward Marketing Liaison', 'Máy thuyền vẽ làm đạp.', 'anh2.jpg', 2, 'Nhà tủ nón mười.', 'dasda', '2021-10-20', '2021-10-20');
+(9, NULL, NULL, NULL, 'Human Division Producer', 'Đâu trời vẽ lầu gió cái mướn tui.', 'anh4.jpg', 1, 'Chìm đá là chìm con độc đâu tôi.', 'Nón ghét được.', '2021-10-19', '2021-10-19'),
+(24, NULL, NULL, NULL, 'Regional Factors Administrator', 'Em đồng cửa máy ghế.', 'icon-sun.ico', 1, 'Thuyền là tô khoan á không hai.', 'Chìm nón sáu việc', '2021-10-20', '2021-10-20'),
+(31, NULL, NULL, NULL, 'Forward Marketing Liaison', 'Máy thuyền vẽ làm đạp.', 'anh2.jpg', 2, 'Nhà tủ nón mười.', 'dasda', '2021-10-20', '2021-10-20'),
+(32, NULL, NULL, NULL, 'Future Metrics Director', 'Kim máy trời khoan trăng.', 'hacker.jpg', 2, 'Chín tám xanh.', 'Tủ vẽ khoảng', '2021-10-20', '2021-10-20');
 
 -- --------------------------------------------------------
 
@@ -132,7 +133,8 @@ CREATE TABLE `users_table` (
 
 INSERT INTO `users_table` (`id`, `permission_id`, `username`, `email`, `password`, `phone`) VALUES
 (88, 1, 'admin', 'admin123@gmail.com', '0192023a7bbd73250516f069df18b500', '0123456789'),
-(89, 2, 'user', 'user@gmail.com', '6ad14ba9986e3615423dfca256d04e3f', '09963598555');
+(89, 2, 'user', 'user@gmail.com', '6ad14ba9986e3615423dfca256d04e3f', '09963598555'),
+(90, 2, 'tn_khainv', 'dtc18h4802010185@ictu.edu.vn', 'c5d16b4c6910db1e7ebba5d59f8dff96', '0369845622');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -192,7 +194,7 @@ ALTER TABLE `permission`
 -- AUTO_INCREMENT cho bảng `posts_table`
 --
 ALTER TABLE `posts_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT cho bảng `tags_table`
@@ -204,7 +206,7 @@ ALTER TABLE `tags_table`
 -- AUTO_INCREMENT cho bảng `users_table`
 --
 ALTER TABLE `users_table`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=90;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
 
 --
 -- Các ràng buộc cho các bảng đã đổ

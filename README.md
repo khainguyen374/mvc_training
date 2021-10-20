@@ -1,4 +1,5 @@
 # mvc_training
+http://localhost/mvc_training/
 
 role admin:
 email: admin123@gmail.com
