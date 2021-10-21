@@ -6,7 +6,7 @@ $routes['default_controller'] = 'admin/';
 * */
 $routes['/'] = 'user/';
 $routes['login'] = 'login/index';
-$routes['logout'] = 'logout/index';
+$routes['logout'] = 'logout/logout';
 $routes['register'] = 'register/index';
 $routes['register/add'] = 'register/registerUser';
 
